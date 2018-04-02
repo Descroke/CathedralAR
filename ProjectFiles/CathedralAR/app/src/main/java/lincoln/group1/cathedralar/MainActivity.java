@@ -1,5 +1,6 @@
 package lincoln.group1.cathedralar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -21,14 +22,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         // Example of a call to a native method
         /*TextView tv = (TextView) findViewById(R.id.sample_text);
@@ -65,12 +58,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onButtonTap(View v) {
-        Toast myToast = Toast.makeText(
-                getApplicationContext(),
-                "Ouch!",
-                Toast.LENGTH_LONG
-        );
-        myToast.show();
+        openActivityAR();
+    }
+
+    public void openActivityAR(){
+        Intent intent = new Intent (this, ARActivity.class);
+        startActivity(intent);
+
     }
 }
 
