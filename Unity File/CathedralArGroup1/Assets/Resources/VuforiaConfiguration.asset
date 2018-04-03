@@ -45,12 +45,12 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - Note
-    - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - VuforiaMars_Images
     dataSetsToActivate:
     - Note
-    - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - VuforiaMars_Images
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -70,7 +70,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: HP Truevision HD
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
