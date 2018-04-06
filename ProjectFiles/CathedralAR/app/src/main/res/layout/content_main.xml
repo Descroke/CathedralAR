@@ -9,32 +9,4 @@
     tools:layout_editor_absoluteY="25dp"
     tools:showIn="@layout/activity_main">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="180dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="220dp"
-        android:background="?attr/colorControlHighlight"
-        android:elevation="0dp"
-        android:onClick="onButtonTap"
-        android:text="@string/TouchToStart"
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="150dp"
-        android:adjustViewBounds="true"
-        android:alpha="0.9"
-        android:scaleType="fitXY"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/titletop"
-        tools:layout_editor_absoluteY="0dp" />
-
 </android.support.constraint.ConstraintLayout>
