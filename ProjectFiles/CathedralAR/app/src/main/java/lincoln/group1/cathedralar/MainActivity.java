@@ -58,13 +58,20 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onButtonTap(View v) {
-        openActivityAR();
+        openUnity();
     }
 
     public void openActivityAR(){
         Intent intent = new Intent (this, ARActivity.class);
         startActivity(intent);
 
+    }
+
+   public void openUnity(){
+        Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.Group1.CathedralAR");
+        if(launchIntent != null){
+            startActivity(launchIntent);
+        }
     }
 
 }
