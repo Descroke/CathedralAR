@@ -9,6 +9,7 @@
     tools:layout_editor_absoluteY="25dp"
     tools:showIn="@layout/activity_main">
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -37,4 +38,6 @@
         app:srcCompat="@drawable/titletop"
         tools:layout_editor_absoluteY="0dp" />
 
+=======
+>>>>>>> master
 </android.support.constraint.ConstraintLayout>

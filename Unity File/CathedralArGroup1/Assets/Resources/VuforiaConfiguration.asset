@@ -45,12 +45,17 @@ MonoBehaviour:
   databaseLoad:
     dataSetsToLoad:
     - Note
+<<<<<<< HEAD
     - VuforiaMars_VuMark
     - VuforiaMars_Images
     dataSetsToActivate:
     - Note
     - VuforiaMars_VuMark
     - VuforiaMars_Images
+=======
+    dataSetsToActivate:
+    - Note
+>>>>>>> master
   videoBackground:
     clippingMode: 0
     numDivisions: 2
