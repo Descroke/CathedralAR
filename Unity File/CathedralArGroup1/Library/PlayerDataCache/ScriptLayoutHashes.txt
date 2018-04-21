@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/tijit/Desktop/androidTest.apk
+C:/Users/Descr/AppData/Roaming/Microsoft/Windows/Network Shortcuts/CathedralTest.apk
 SceneListBegin?
 Assets/Cathedral.unity
 SceneListEnd?
