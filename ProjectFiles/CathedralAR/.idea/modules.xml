@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CathedralAR.iml" filepath="$PROJECT_DIR$/CathedralAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/CathedralAR-app.iml" filepath="$PROJECT_DIR$/app/CathedralAR-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectFiles-CathedralAR.iml" filepath="$PROJECT_DIR$/ProjectFiles-CathedralAR.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
